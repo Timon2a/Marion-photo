@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +12,26 @@
 
 <body>
 
+  <!-- =========================
+       HERO
+  ========================== -->
+
   <header class="hero">
 
     <img
       class="hero-image"
-      src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=2000&q=90"
+      src="images/hero.jpg"
       alt="Paysage"
     >
 
     <div class="hero-overlay"></div>
 
+
     <nav class="nav">
-      <div class="logo">MARION</div>
+
+      <div class="logo">
+        MARION
+      </div>
 
       <div class="nav-links">
         <a href="#portfolio">Portfolio</a>
@@ -31,10 +40,15 @@
         <a href="#prints">Tirages</a>
         <a href="#contact">Contact</a>
       </div>
+
     </nav>
 
+
     <div class="hero-content">
-      <p class="eyebrow">Photographe • Corse</p>
+
+      <p class="eyebrow">
+        Photographe • Corse
+      </p>
 
       <h1>
         MARION
@@ -48,6 +62,7 @@
       <a class="button button-light" href="#portfolio">
         Découvrir mon univers
       </a>
+
     </div>
 
   </header>
@@ -55,86 +70,147 @@
 
   <main>
 
-    <!-- PORTFOLIO -->
+
+    <!-- =========================
+         PORTFOLIO
+    ========================== -->
 
     <section class="section" id="portfolio">
 
       <div class="section-header">
-        <p class="eyebrow dark">Portfolio</p>
-        <h2>Quelques histoires en images.</h2>
+
+        <p class="eyebrow dark">
+          Portfolio
+        </p>
+
+        <h2>
+          Quelques histoires en images.
+        </h2>
+
       </div>
+
 
       <div class="gallery">
 
-        <div class="gallery-item">
-          <img
-            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1000&q=85"
-            alt="Paysage montagne"
-          >
-          <div class="gallery-label">Aventure</div>
-        </div>
 
-        <div class="gallery-item">
-          <img
-            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=85"
-            alt="Paysage avec lac"
-          >
-          <div class="gallery-label">Évasion</div>
-        </div>
+        <!-- PORTRAIT -->
 
-        <div class="gallery-item">
-          <img
-            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=85"
-            alt="Forêt"
-          >
-          <div class="gallery-label">Lumière</div>
-        </div>
+        <a href="portrait.html" class="gallery-item">
 
-        <div class="gallery-item">
           <img
-            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85"
-            alt="Montagnes"
+            src="images/portrait-cover.jpg"
+            alt="Portraits"
           >
-          <div class="gallery-label">Horizons</div>
-        </div>
 
-        <div class="gallery-item">
-          <img
-            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85"
-            alt="Nature"
-          >
-          <div class="gallery-label">Nature</div>
-        </div>
+          <div class="gallery-label">
+            Portrait
+          </div>
 
-        <div class="gallery-item">
+        </a>
+
+
+        <!-- COUPLE -->
+
+        <a href="couple.html" class="gallery-item">
+
           <img
-            src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1000&q=85"
-            alt="Sentier dans la nature"
+            src="images/couple-cover.jpg"
+            alt="Photographies de couple"
           >
-          <div class="gallery-label">Instants</div>
-        </div>
+
+          <div class="gallery-label">
+            Couple
+          </div>
+
+        </a>
+
+
+        <!-- PAYSAGE -->
+
+        <a href="paysage.html" class="gallery-item">
+
+          <img
+            src="images/paysage-cover.jpg"
+            alt="Paysages"
+          >
+
+          <div class="gallery-label">
+            Paysage
+          </div>
+
+        </a>
+
+
+        <!-- SPORT -->
+
+        <a href="sport.html" class="gallery-item">
+
+          <img
+            src="images/sport-cover.jpg"
+            alt="Photographies sportives"
+          >
+
+          <div class="gallery-label">
+            Sport
+          </div>
+
+        </a>
+
+
+        <!-- EVENEMENT -->
+
+        <a href="evenement.html" class="gallery-item">
+
+          <img
+            src="images/evenement-cover.jpg"
+            alt="Événements"
+          >
+
+          <div class="gallery-label">
+            Événement
+          </div>
+
+        </a>
+
+
+        <!-- NATURE -->
+
+        <a href="nature.html" class="gallery-item">
+
+          <img
+            src="images/nature-cover.jpg"
+            alt="Photographies nature"
+          >
+
+          <div class="gallery-label">
+            Nature
+          </div>
+
+        </a>
+
 
       </div>
 
     </section>
 
 
-    <!-- A PROPOS -->
+    <!-- =========================
+         A PROPOS
+    ========================== -->
 
     <section class="about" id="about">
 
+
       <div class="about-image">
 
-        <!--
-          Plus tard, on remplacera ce bloc par
-          la vraie photo de Marion.
-        -->
-
-        <div class="portrait-placeholder">
-          <span>Photo de Marion<br>à ajouter ici</span>
-        </div>
+        <img
+          src="images/portrait-marion.jpg"
+          alt="Marion photographe"
+          class="portrait-photo"
+        >
 
       </div>
+
 
       <div class="about-content">
 
@@ -168,63 +244,98 @@
     </section>
 
 
-    <!-- PRESTATIONS -->
+    <!-- =========================
+         PRESTATIONS
+    ========================== -->
 
     <section class="section services" id="services">
 
       <div class="section-header">
-        <p class="eyebrow dark">Prestations</p>
-        <h2>Votre histoire, à votre manière.</h2>
+
+        <p class="eyebrow dark">
+          Prestations
+        </p>
+
+        <h2>
+          Votre histoire, à votre manière.
+        </h2>
+
       </div>
+
 
       <div class="service-grid">
 
-        <article class="service-card">
-          <span>01</span>
 
-          <h3>Portrait</h3>
+        <article class="service-card">
+
+          <span>
+            01
+          </span>
+
+          <h3>
+            Portrait
+          </h3>
 
           <p>
-            Des séances simples et naturelles pour créer des images
-            qui vous ressemblent vraiment.
+            Des séances simples et naturelles pour créer
+            des images qui vous ressemblent vraiment.
           </p>
+
         </article>
 
 
         <article class="service-card">
-          <span>02</span>
 
-          <h3>Couple</h3>
+          <span>
+            02
+          </span>
+
+          <h3>
+            Couple
+          </h3>
 
           <p>
-            Des moments spontanés à deux, sans poses forcées,
+            Des moments spontanés à deux,
             dans un lieu qui raconte votre histoire.
           </p>
+
         </article>
 
 
         <article class="service-card">
-          <span>03</span>
 
-          <h3>Événement</h3>
+          <span>
+            03
+          </span>
+
+          <h3>
+            Événement
+          </h3>
 
           <p>
-            Capturer l'ambiance, les détails et les moments
-            que vous aurez envie de garder.
+            Capturer l'ambiance, les détails
+            et les moments que vous aurez envie de garder.
           </p>
+
         </article>
+
 
       </div>
 
     </section>
 
 
-    <!-- TIRAGES -->
+    <!-- =========================
+         TIRAGES
+    ========================== -->
 
     <section class="prints" id="prints">
 
       <div class="section-header section-header-light">
-        <p class="eyebrow">Tirages</p>
+
+        <p class="eyebrow">
+          Tirages
+        </p>
 
         <h2>
           Une image à garder chez vous.
@@ -233,57 +344,99 @@
         <p class="prints-intro">
           Une sélection de photographies disponibles en tirage.
         </p>
+
       </div>
+
 
       <div class="prints-grid">
 
+
         <article class="print-card">
+
           <img
-            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1000&q=85"
-            alt="Tirage montagne"
+            src="images/tirage-01.jpg"
+            alt="Tirage photo"
           >
 
           <div class="print-info">
-            <h3>Altitude</h3>
-            <p>À partir de 25 €</p>
-            <a href="#contact">Commander</a>
+
+            <h3>
+              Altitude
+            </h3>
+
+            <p>
+              À partir de 25 €
+            </p>
+
+            <a href="#contact">
+              Commander
+            </a>
+
           </div>
+
         </article>
 
 
         <article class="print-card">
+
           <img
-            src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=85"
-            alt="Tirage lac"
+            src="images/tirage-02.jpg"
+            alt="Tirage photo"
           >
 
           <div class="print-info">
-            <h3>Silence</h3>
-            <p>À partir de 25 €</p>
-            <a href="#contact">Commander</a>
+
+            <h3>
+              Silence
+            </h3>
+
+            <p>
+              À partir de 25 €
+            </p>
+
+            <a href="#contact">
+              Commander
+            </a>
+
           </div>
+
         </article>
 
 
         <article class="print-card">
+
           <img
-            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1000&q=85"
-            alt="Tirage forêt"
+            src="images/tirage-03.jpg"
+            alt="Tirage photo"
           >
 
           <div class="print-info">
-            <h3>Lumière</h3>
-            <p>À partir de 25 €</p>
-            <a href="#contact">Commander</a>
+
+            <h3>
+              Lumière
+            </h3>
+
+            <p>
+              À partir de 25 €
+            </p>
+
+            <a href="#contact">
+              Commander
+            </a>
+
           </div>
+
         </article>
+
 
       </div>
 
     </section>
 
 
-    <!-- CONTACT -->
+    <!-- =========================
+         CONTACT
+    ========================== -->
 
     <section class="contact" id="contact">
 
@@ -296,7 +449,8 @@
       </h2>
 
       <p>
-        Pour une séance, une collaboration ou une commande de tirage.
+        Pour une séance, une collaboration
+        ou une commande de tirage.
       </p>
 
       <a
@@ -308,8 +462,13 @@
 
     </section>
 
+
   </main>
 
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
 
   <footer>
 
@@ -322,7 +481,9 @@
     </div>
 
     <div>
-      <a href="#">Instagram</a>
+      <a href="#">
+        Instagram
+      </a>
     </div>
 
   </footer>
@@ -331,4 +492,5 @@
   <script src="script.js"></script>
 
 </body>
+
 </html>
